@@ -19,6 +19,8 @@ import {
 import { useRouter } from "next/navigation";
 
 export const AuthContext = createContext();
+
+
 //* with custom hook
 export const useAuthContext = () => {
   return useContext(AuthContext);
