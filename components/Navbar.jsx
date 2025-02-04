@@ -3,9 +3,9 @@ import { useAuthContext } from "@/context/AuthContext";
 import {
     Disclosure,
     Menu,
-    MenuButton,
-    MenuItem,
-    MenuItems,
+    MenuButton, //Menu.Button
+    MenuItem, //Menu.Item
+    MenuItems, //Menu.Items
     Transition,
 } from "@headlessui/react";
 import Link from "next/link";
