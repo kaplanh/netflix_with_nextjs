@@ -3,15 +3,18 @@ import { useAuthContext } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
+export const metadata = {
+    title: "Movies",
+};
 export default function PrivateLayout({ children }) {
-  const { currentUser } = useAuthContext();
-  let router = useRouter();
-  useEffect(() => {
-    const user = JSON.parse(sessionStorage.getItem("user"));
-    if (!user) {
-      router.push("login");
-    }
-  }, [currentUser]);
+    const { currentUser } = useAuthContext();
+    let router = useRouter();
+    useEffect(() => {
+        const user = JSON.parse(sessionStorage.getItem("user"));
+        if (!user) {
+            router.push("login");
+        }
+    }, [currentUser]);
 
-  return <section>{children}</section>;
+    return <section>{children}</section>;
 }
