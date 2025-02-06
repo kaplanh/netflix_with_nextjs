@@ -52,7 +52,9 @@
 
 [Live Link](https://netflix-with-nextjs.vercel.app/movies)
 
-![Netflix]('/images/netflix-nextjs.gif')
+![Netflix]()
+
+<img src='./images/netflix-nextjs.gif' alt="gif"/>
 
 <div id="user-content-toc">
   <ul align="left">
