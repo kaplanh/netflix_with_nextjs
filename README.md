@@ -22,7 +22,7 @@
       <li> Fetch-Api
       <li> Tailwind CSS
       <li> Firebase
-      <li> Firebase Authorization 
+      <li> Firebase-authorization 
       <li> React-toastify  
       <li> Heroicons-react 
       <li> Headlessui-react
@@ -52,7 +52,7 @@
 
 [Live Link](https://netflix-with-nextjs.vercel.app/movies)
 
-![stockapp](https://github.com/kaplanh/netflix_with_nextjs)
+![Netflix]('/images/netflix-nextjs.gif')
 
 <div id="user-content-toc">
   <ul align="left">
@@ -94,8 +94,6 @@ netflix_with_nextjs (folder)
 |     |      |    └── page.jsx
 |     |      └── register
 |     |           └── page.jsx
-
-|     |
 │     ├── page.jsx
 │     ├── layout.js
 │     └── globals.css
