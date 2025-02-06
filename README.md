@@ -52,7 +52,7 @@
 
 [Live Link](https://netflix-with-nextjs.vercel.app/movies)
 
-![Netflix]("https://github.com/kaplanh/markdown-here/raw/master/public/images/netflix-nextjs.gif")
+![Netflix]("https://github.com/kaplanh/markdown-here/raw/master/images/netflix-nextjs.gif")
 
 <div id="user-content-toc">
   <ul align="left">
